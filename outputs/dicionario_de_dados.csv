@@ -1,0 +1,51 @@
+﻿base,coluna,tipo,nulos,valores_unicos,descricao
+enem_resultados,NU_SEQUENCIAL,int64,0,3073011,Coluna original do INEP (ver dicionário oficial)
+enem_resultados,CO_ESCOLA,float64,1868059,29249,Coluna original do INEP (ver dicionário oficial)
+enem_resultados,TP_DEPENDENCIA_ADM_ESC,float64,1868059,4,Coluna original do INEP (ver dicionário oficial)
+enem_resultados,TP_LOCALIZACAO_ESC,float64,1868059,2,Coluna original do INEP (ver dicionário oficial)
+enem_resultados,CO_MUNICIPIO_PROVA,int64,0,1805,Coluna original do INEP (ver dicionário oficial)
+enem_resultados,NO_MUNICIPIO_PROVA,str,0,1768,Coluna original do INEP (ver dicionário oficial)
+enem_resultados,SG_UF_PROVA,str,0,27,Coluna original do INEP (ver dicionário oficial)
+enem_resultados,TP_PRESENCA_CN,int64,0,1,Coluna original do INEP (ver dicionário oficial)
+enem_resultados,TP_PRESENCA_CH,int64,0,1,Coluna original do INEP (ver dicionário oficial)
+enem_resultados,TP_PRESENCA_LC,int64,0,1,Coluna original do INEP (ver dicionário oficial)
+enem_resultados,TP_PRESENCA_MT,int64,0,1,Coluna original do INEP (ver dicionário oficial)
+enem_resultados,NU_NOTA_CN,float64,0,5028,Coluna original do INEP (ver dicionário oficial)
+enem_resultados,NU_NOTA_CH,float64,0,4828,Coluna original do INEP (ver dicionário oficial)
+enem_resultados,NU_NOTA_LC,float64,0,4327,Coluna original do INEP (ver dicionário oficial)
+enem_resultados,NU_NOTA_MT,float64,0,6312,Coluna original do INEP (ver dicionário oficial)
+enem_resultados,TP_STATUS_REDACAO,float64,0,1,Coluna original do INEP (ver dicionário oficial)
+enem_resultados,NU_NOTA_COMP1,float64,0,11,Coluna original do INEP (ver dicionário oficial)
+enem_resultados,NU_NOTA_COMP2,float64,0,9,Coluna original do INEP (ver dicionário oficial)
+enem_resultados,NU_NOTA_COMP3,float64,0,11,Coluna original do INEP (ver dicionário oficial)
+enem_resultados,NU_NOTA_COMP4,float64,0,11,Coluna original do INEP (ver dicionário oficial)
+enem_resultados,NU_NOTA_COMP5,float64,0,11,Coluna original do INEP (ver dicionário oficial)
+enem_resultados,NU_NOTA_REDACAO,float64,0,49,Coluna original do INEP (ver dicionário oficial)
+enem_resultados,NOTA_MEDIA,float64,0,25997,"Média simples das 5 notas (CN, CH, LC, MT, Redação), 0-1000; no município, média dos participantes"
+enem_resultados,DEPENDENCIA,str,0,5,Dependência administrativa da escola (TP_DEPENDENCIA_ADM_ESC)
+enem_resultados,REDE,str,0,3,Pública (federal/estadual/municipal) ou privada
+enem_resultados,LOCALIZACAO,str,0,3,Localização da escola
+enem_resultados,UF,str,0,27,UF de realização da prova
+enem_municipios,CO_MUNICIPIO,int64,0,1801,Coluna original do INEP (ver dicionário oficial)
+enem_municipios,MUNICIPIO,str,0,1764,Coluna original do INEP (ver dicionário oficial)
+enem_municipios,UF,str,0,27,UF de realização da prova
+enem_municipios,N_SOCIO,int64,0,1280,Participantes (não treineiros) com renda válida
+enem_municipios,RENDA_MEDIA_ORD,double[pyarrow],0,1800,Média do código ordinal da renda familiar Q007 (0 = nenhuma ... 16 = acima de R$ 30.360)
+enem_municipios,PCT_RENDA_ATE_1SM,float64,0,1782,% com renda familiar de até 1 SM (R$ 1.518)
+enem_municipios,PCT_RENDA_ACIMA_5SM,float64,0,1705,% com renda familiar acima de 5 SM (R$ 7.590)
+enem_municipios,PCT_MAE_SUPERIOR,float64,0,1758,% cuja mãe/responsável tem ensino superior (Q002)
+enem_municipios,PCT_PAI_SUPERIOR,float64,0,1726,% cujo pai/responsável tem ensino superior (Q001)
+enem_municipios,PCT_FEMININO,double[pyarrow],0,1746,Coluna original do INEP (ver dicionário oficial)
+enem_municipios,PCT_PRETA_PARDA,float64,0,1789,Coluna original do INEP (ver dicionário oficial)
+enem_municipios,PCT_WIFI,double[pyarrow],0,1767,% com Wi-Fi em casa (Q020)
+enem_municipios,PCT_COMPUTADOR,float64,0,1776,% com computador/notebook em casa (Q021)
+enem_municipios,PCT_SO_PRIVADA_Q023,float64,0,1683,% que cursou o médio só em escola privada (Q023 = D/E)
+enem_municipios,PCT_SO_PUBLICA_Q023,double[pyarrow],0,1748,% que cursou só em escola pública (Q023 = A)
+enem_municipios,N_RESULTADOS,int64,0,1234,Participantes com notas válidas
+enem_municipios,NOTA_MEDIA,float64,0,1801,"Média simples das 5 notas (CN, CH, LC, MT, Redação), 0-1000; no município, média dos participantes"
+enem_municipios,NOTA_CN,float64,0,1801,Coluna original do INEP (ver dicionário oficial)
+enem_municipios,NOTA_CH,float64,0,1801,Coluna original do INEP (ver dicionário oficial)
+enem_municipios,NOTA_LC,float64,0,1801,Coluna original do INEP (ver dicionário oficial)
+enem_municipios,NOTA_MT,float64,0,1801,Coluna original do INEP (ver dicionário oficial)
+enem_municipios,NOTA_REDACAO,float64,0,1797,Coluna original do INEP (ver dicionário oficial)
+enem_municipios,PCT_ESCOLA_PRIVADA,float64,0,1450,% dos participantes do município vindos de escola privada

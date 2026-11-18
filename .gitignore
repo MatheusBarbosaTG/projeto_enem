@@ -1,0 +1,7 @@
+data/
+rag/chroma_db/
+rag/docs/
+__pycache__/
+*.pyc
+.env
+*2025*.csv

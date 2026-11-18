@@ -1,0 +1,4 @@
+PARTICIPANTES: 4,810,772 registros lidos; 987,650 treineiros excluídos; 3,823,122 com renda válida em 1,805 municípios de prova.
+RESULTADOS: 4,810,772 registros lidos; 3,073,011 com as 4 provas presentes, redação válida e todas as notas.
+Distribuição por rede: Não informada=1,868,059, Pública=955,375, Privada=249,577
+Municípios com dados nas duas bases: 1,805; mantidos com ≥30 participantes: 1,801.
